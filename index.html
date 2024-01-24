@@ -11,7 +11,7 @@
       type="image/x-icon"
     />
     <!-- Reset CSS -->
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="reset.css" />
 
     <!-- CSS -->
     <link rel="stylesheet" href="styles.css" />
@@ -32,7 +32,6 @@
     />
 
     <title>Spotify Imersão</title>
-
   </head>
   <body>
     <div class="sidebar">
@@ -45,22 +44,51 @@
             />
           </a>
         </div>
-        <div>
-          <ul>
-            <li>
-              <a href="#">
-                <span><i class="fa fa-home"></i></span> <span>Início</span>
-              </a>
-            </li>
+        <ul>
+          <li>
+            <a href="#">
+              <span><i class="fa fa-home"></i></span> <span>Início</span>
+            </a>
+          </li>
 
-            <li>
-              <a href="#">
-                <span><i class="fa fa-search"></i></span> <span>Buscar</span>
-              </a>
-            </li>
-          </ul>
-        </div>
+          <li>
+            <a href="#">
+              <span><i class="fa fa-search"></i></span> <span>Buscar</span>
+            </a>
+          </li>
+        </ul>
       </nav>
+
+      <div class="library">
+        <div class="library__content">
+          <button class="library__button">
+            <span class="fa fas fa-book"></span>
+            <span>Sua Biblioteca</span>
+          </button>
+          <span class="fa fa-plus"></span>
+        </div>
+
+        <section class="section-playlist">
+          <div class="section-playlist__content">
+            <span class="text title">Crie sua primeira playlist</span>
+            <span class="text subtitle">E fácil, vamos te ajudar!</span>
+            <button class="section-playlist__button">
+              <span>Criar playlist!</span>
+            </button>
+          </div>
+        </section>
+
+        <div class="cookies">
+          <a href="#">Cookies</a>
+        </div>
+
+        <div class="languages">
+          <button class="languages__button">
+            <span class="fa fa-globe"></span>
+            <span>Português do Brasil</span>
+          </button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
